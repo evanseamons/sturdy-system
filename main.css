@@ -1,0 +1,164 @@
+html head body h1 h2 h3 h4 p a {
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+body {
+  background-image: url(HTMLProjectAssets/green-vegetables-on-brown-wooden-chopping-board.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+
+}
+p {
+    margin: 20px 0px;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+.container {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  margin: 0px 50px;
+  text-decoration: none;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav {
+  text-decoration: none;
+  font-size: 17px;
+  justify-content: center;
+  margin: 25px;
+}
+.nav a {
+  list-style-type: none;
+  display: inline;
+  padding: 5px;
+  text-decoration: none;
+  color: #ffffff;
+}
+hr {
+  margin: 0px 50px;
+  color: #ffffff;
+}
+.container2 {
+  display: flex;
+  height: 1018px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.centertitle {
+  font-size: 50px;
+  height: 200px;
+}
+.line {
+  width: 600px;
+}
+.subtitle {
+  font-size: 36px;
+  font-weight: 100;
+}
+.container3 {
+  display: flex;
+  background-color: black;
+  height: 400px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.bread {
+  height: 300px;
+  width: 400px;
+  align-self: flex-start;
+}
+img {
+  max-width: 600px;
+  object-fit: contain;
+  max-height: 400px;
+}
+.container3-5 {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0px 100px 0px 200px;
+}
+.titlebread {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+.subtitlebread {
+  font-size: 30px;
+  width: 1000px;
+}
+.container4 {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    height: 400px;
+    justify-content: space-between;
+    margin-right: 200px;
+    padding: 0px;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .pineapple {
+    height: 300px;
+    width: 400px;
+    align-self:flex-start ;
+  }
+  .container4-5 {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left:200px;
+  }
+  .titlepine {
+    font-weight: bold;
+    font-size: 2.5em;
+  }
+  .subtitlepine {
+    font-size: 30px;
+    width: 1000px;
+  }
+  .container5 {
+    display: flex;
+    background-color: rgb(54, 54, 54);
+    height: 400px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  .bowl {
+    width: 600;
+    align-self: flex-start;
+  }
+  .container5-5 {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0px 100px 0px 200px;
+  }
+  .titlebowl {
+    font-weight: bold;
+    font-size: 2.5em;
+  }
+  .subtitlebowl {
+    font-size: 30px;
+    width: 1000px;
+  }
+  
